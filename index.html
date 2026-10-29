@@ -2,81 +2,88 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Especialidad de Programación</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio de Programación</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>Especialidad de Programación</h1>
-    <p>Instituto Superior de Comercio de Viña del Mar</p>
-  </header>
+    <header>
+        <h1>Mi Portafolio</h1>
+        <p>Estudiante de la especialidad de Programación</p>
+        <a class="boton" href="#proyectos">Ver mis proyectos</a>
+    </header>
 
-  <nav>
-    <a href="#especialidad">Especialidad</a>
-    <a href="#habilidades">Habilidades</a>
-    <a href="#proyectos">Proyectos</a>
-  </nav>
+    <main>
+        <section>
+            <h2>Sobre mí</h2>
+            <p>
+                Soy estudiante de Programación y me interesa desarrollar
+                páginas web, aplicaciones y videojuegos. En este portafolio
+                presento algunos de mis proyectos y las tecnologías que
+                estoy aprendiendo a utilizar.
+            </p>
+        </section>
 
-  <main>
-    <section id="especialidad">
-      <h2>¿Qué es Programación?</h2>
-      <p>
-        La especialidad de Programación enseña a crear páginas web,
-        aplicaciones y sistemas informáticos. También ayuda a desarrollar
-        la lógica, resolver problemas y trabajar con distintas tecnologías.
-      </p>
-      <img
-        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
-        alt="Persona trabajando con tecnología">
-    </section>
+        <section>
+            <h2>Habilidades técnicas</h2>
+            <div class="habilidades">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Python</span>
+                <span>SQL</span>
+                <span>GitHub</span>
+            </div>
+        </section>
 
-    <section id="habilidades">
-      <h2>Habilidades que desarrollamos</h2>
-      <div class="contenedor">
-        <article class="tarjeta">💻 Desarrollo web</article>
-        <article class="tarjeta">🧠 Lógica de programación</article>
-        <article class="tarjeta">🗄️ Bases de datos</article>
-        <article class="tarjeta">🛠️ Resolución de problemas</article>
-      </div>
-    </section>
+        <section id="proyectos">
+            <h2>Mis proyectos</h2>
 
-    <section id="proyectos">
-      <h2>Proyectos que podemos crear</h2>
-      <div class="contenedor">
-        <article class="tarjeta">
-          <h3>Páginas web</h3>
-          <p>Sitios informativos usando HTML y CSS.</p>
-        </article>
-        <article class="tarjeta">
-          <h3>Videojuegos</h3>
-          <p>Juegos sencillos utilizando Python.</p>
-        </article>
-        <article class="tarjeta">
-          <h3>Sistema escolar</h3>
-          <p>Aplicación para registrar alumnos y notas.</p>
-        </article>
-      </div>
+            <div class="proyectos">
 
-      <h2>Aprende más</h2>
-      <p>
-        Puedes revisar ejemplos de proyectos en
-        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-          GitHub
-        </a>.
-      </p>
+                <article class="tarjeta">
+                    <h3>1. Página web institucional</h3>
+                    <p>
+                        Sitio web educativo con información organizada,
+                        diseño adaptable y secciones de navegación.
+                    </p>
+                    <p><strong>Tecnologías:</strong> HTML, CSS y JavaScript.</p>
+                    <a href="https://github.com/" target="_blank"
+                       rel="noopener noreferrer">Ver repositorio</a>
+                </article>
 
-      <img
-        src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=900&q=80"
-        alt="Código de programación en una pantalla">
-    </section>
-  </main>
+                <article class="tarjeta">
+                    <h3>2. Mini GTA Simulator</h3>
+                    <p>
+                        Simulador inspirado en GTA con personajes,
+                        policías y misiones mediante programación
+                        orientada a objetos.
+                    </p>
+                    <p><strong>Tecnologías:</strong> Python y POO.</p>
+                    <a href="https://github.com/" target="_blank"
+                       rel="noopener noreferrer">Ver repositorio</a>
+                </article>
 
-  <footer>
-    <p>Proyecto escolar | Especialidad de Programación</p>
-  </footer>
+                <article class="tarjeta">
+                    <h3>3. Sistema de registro escolar</h3>
+                    <p>
+                        Programa para registrar estudiantes, guardar
+                        notas y consultar promedios académicos.
+                    </p>
+                    <p><strong>Tecnologías:</strong> Python y POO.</p>
+                    <a href="https://github.com/" target="_blank"
+                       rel="noopener noreferrer">Ver repositorio</a>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Portafolio académico | Especialidad de Programación</p>
+    </footer>
 
 </body>
 </html>
