@@ -2,26 +2,81 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera página</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Especialidad de Programación</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Mi primera página web</h1>
-        <p>Creada con HTML y CSS</p>
-    </header>
 
-    <main>
-        <h2>Especialidad de Programación</h2>
-        <p>Estoy aprendiendo a crear sitios web.</p>
-        <button>Mi primer botón</button>
-    </main>
+  <header>
+    <h1>Especialidad de Programación</h1>
+    <p>Instituto Superior de Comercio de Viña del Mar</p>
+  </header>
 
-    <footer>
-        <p>Proyecto de GitHub Pages</p>
-    </footer>
+  <nav>
+    <a href="#especialidad">Especialidad</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#proyectos">Proyectos</a>
+  </nav>
+
+  <main>
+    <section id="especialidad">
+      <h2>¿Qué es Programación?</h2>
+      <p>
+        La especialidad de Programación enseña a crear páginas web,
+        aplicaciones y sistemas informáticos. También ayuda a desarrollar
+        la lógica, resolver problemas y trabajar con distintas tecnologías.
+      </p>
+      <img
+        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
+        alt="Persona trabajando con tecnología">
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades que desarrollamos</h2>
+      <div class="contenedor">
+        <article class="tarjeta">💻 Desarrollo web</article>
+        <article class="tarjeta">🧠 Lógica de programación</article>
+        <article class="tarjeta">🗄️ Bases de datos</article>
+        <article class="tarjeta">🛠️ Resolución de problemas</article>
+      </div>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos que podemos crear</h2>
+      <div class="contenedor">
+        <article class="tarjeta">
+          <h3>Páginas web</h3>
+          <p>Sitios informativos usando HTML y CSS.</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Videojuegos</h3>
+          <p>Juegos sencillos utilizando Python.</p>
+        </article>
+        <article class="tarjeta">
+          <h3>Sistema escolar</h3>
+          <p>Aplicación para registrar alumnos y notas.</p>
+        </article>
+      </div>
+
+      <h2>Aprende más</h2>
+      <p>
+        Puedes revisar ejemplos de proyectos en
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>.
+      </p>
+
+      <img
+        src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=900&q=80"
+        alt="Código de programación en una pantalla">
+    </section>
+  </main>
+
+  <footer>
+    <p>Proyecto escolar | Especialidad de Programación</p>
+  </footer>
+
 </body>
 </html>
-
